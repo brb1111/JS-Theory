@@ -20,12 +20,13 @@ const whatToDo ="왓투두";
 이게 프로그래머의 암묵적인 규칙이랍니다.
 */
 /*
-배열
+
 const something = "Something"
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", something];
 */
-//object 데이터타입
+
 /*
+//object 데이터타입
 const ojyInfo = {
   name : "Ojy",
   age : 33,
@@ -45,3 +46,5 @@ console.log(ojyInfo.favGame);
 console.log(ojyInfo.favFood);
 console.log(ojyInfo.favFood.name);
 */
+
+//javascript 함수
