@@ -24,7 +24,7 @@ const whatToDo ="왓투두";
 const something = "Something"
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", something];
 */
-//object
+//object 데이터타입
 /*
 const ojyInfo = {
   name : "Ojy",
@@ -43,4 +43,5 @@ ojyInfo.gender = "Female";
 console.log(ojyInfo.gender);
 console.log(ojyInfo.favGame);
 console.log(ojyInfo.favFood);
+console.log(ojyInfo.favFood.name);
 */
