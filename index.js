@@ -68,8 +68,17 @@ const plus = calculator.plus(5, 5);
 console.log(plus)
 */
 //DOM Document Object Model
+/* querySelector css 선택자랑 비슷하다. #블라블라이면 id값이고
+ .블라블라이면 class값. getelementById같은거 쓰지말고
+ 
 const title = document.querySelector("#title");
 title.innerHTML = "Hi! From JS";
 title.style.color = "red";
 document.title = 'I own you know';
+*/
+const title = document.querySelector("#title");
 
+function handleClick(){
+  title.style.color = "blue"
+}
+window.addEventListener("click", handleClick);
