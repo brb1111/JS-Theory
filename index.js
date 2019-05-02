@@ -55,6 +55,7 @@ function sayHello(name, age){
 const greetOjy = sayHello("오주영", 25);
 console.log(greetOjy);
 */
+/*
 const calculator = {
   plus : function(a, b){
     return a + b;
@@ -65,3 +66,7 @@ const calculator = {
 //console.log(greetOjy);
 const plus = calculator.plus(5, 5);
 console.log(plus)
+*/
+//DOM Document Object Model
+const title = document.getElementById("title");
+title.innerHTML = "Hi! From JS"
