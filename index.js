@@ -48,3 +48,20 @@ console.log(ojyInfo.favFood.name);
 */
 
 //javascript 함수
+/* ``String
+function sayHello(name, age){
+  return `Hello ${name} you are ${age} years old`;
+}
+const greetOjy = sayHello("오주영", 25);
+console.log(greetOjy);
+*/
+const calculator = {
+  plus : function(a, b){
+    return a + b;
+  }
+
+}
+
+//console.log(greetOjy);
+const plus = calculator.plus(5, 5);
+console.log(plus)
