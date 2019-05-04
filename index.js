@@ -85,6 +85,7 @@ function handleClick(){
 }
 window.addEventListener("click", handleClick);
 */
+/* 
 const title = document.querySelector("#title");
 
 const BASE_COLOR = "rgb(52, 73, 94)";
@@ -101,6 +102,29 @@ function handleClick(){
 
 function init(){
   title.style.color = BASE_COLOR;
+  title.addEventListener("click", handleClick);
+}
+init();
+*/
+
+const title = document.querySelector("#title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick(){
+  /*
+  const hasClass = title.classList.contains(CLICKED_CLASS);
+  if(hasClass){
+    title.classList.remove(CLICKED_CLASS);
+  }else{
+    title.classList.add(CLICKED_CLASS);
+  } 
+  이거랑 토글은 실행 결과가 같다.
+   */
+  title.classList.toggle(CLICKED_CLASS);
+}
+
+function init(){
   title.addEventListener("click", handleClick);
 }
 init();
