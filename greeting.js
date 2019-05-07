@@ -4,12 +4,12 @@ greeting = document.querySelector(".js-greetings");
 const USER_LS = "currentUser",
       SHOWING_CN = "showing";
 
-function saveName(text){
-    localStorage.setItem(USER_LS, text);
+function saveName(text){ 
+    localStorage.setItem(USER_LS, text); // 값을 저장하는 것.
 }      
 
-function handleSubmit(event){
-    event.preventDefault();
+function handleSubmit(event){ 
+    event.preventDefault();//폼을 제출하려할때 새로고침같은 현상이 발생 안되게 하는 것.
     const currentValue = input.value;
     paintGreeting(currentValue);
     saveName(currentValue);
