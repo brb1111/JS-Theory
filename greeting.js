@@ -1,5 +1,5 @@
 const form = document.querySelector(".js-form"),
-input = form.querySelector("input"),
+input = form.querySelector("input"), //윗줄에서 정의한 form을 가져와서 element를 쓴다는 의미
 greeting = document.querySelector(".js-greetings");
 const USER_LS = "currentUser",
       SHOWING_CN = "showing";
